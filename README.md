@@ -105,6 +105,4 @@ The main objective of this project is to develop an efficient product filtering 
 
 GitHub: https://github.com/gamparithika
 
----
-
-⭐ If you find this project useful, consider giving it a star on GitHub.
+ 
