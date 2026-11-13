@@ -1,0 +1,6 @@
+{
+  "name": "KoraStore — Curated E-Commerce Marketplace",
+  "description": "Production-grade Indian e-commerce marketplace featuring server-side multi-filter product discovery, sorting, cart checkout, and order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
