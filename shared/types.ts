@@ -3,7 +3,9 @@ export type ProductCategory =
   | 'Apparel'
   | 'Footwear'
   | 'Watches & Accessories'
-  | 'Home & Living';
+  | 'Home & Living'
+  | 'Beauty & Grooming'
+  | 'Sports & Fitness';
 
 export type SortOption = 'default' | 'price_asc' | 'rating_desc';
 

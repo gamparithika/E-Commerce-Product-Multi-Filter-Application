@@ -290,7 +290,7 @@ export class OrderService {
       customer: {
         fullName,
         phone,
-        email: email || 'customer@korastore.in',
+        email: email || 'customer@ecommerce-multifilter.in',
         addressLine,
         city,
         state,

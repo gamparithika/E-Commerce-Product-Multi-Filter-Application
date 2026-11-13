@@ -249,3 +249,22 @@ test('16. Server-side order creation computes pricing from inventory and validat
     OrderValidationError
   );
 });
+
+test('17. Newly added categories (Beauty & Grooming, Sports & Fitness) filter and sort accurately', () => {
+  const result = queryProductInventory(MASTER_PRODUCTS, {
+    categories: ['Beauty & Grooming', 'Sports & Fitness'],
+    minRating: 4,
+    sort: 'price_asc',
+  });
+  assert.ok(result.products.length >= 4);
+  for (let i = 0; i < result.products.length; i++) {
+    assert.ok(
+      result.products[i].category === 'Beauty & Grooming' ||
+        result.products[i].category === 'Sports & Fitness'
+    );
+    assert.ok(result.products[i].rating >= 4);
+    if (i > 0) {
+      assert.ok(result.products[i].price >= result.products[i - 1].price);
+    }
+  }
+});

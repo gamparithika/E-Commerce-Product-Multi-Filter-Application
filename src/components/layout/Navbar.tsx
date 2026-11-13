@@ -70,13 +70,13 @@ export function Navbar({
             onNavigate('shop');
             onQuickCategorySelect('ALL');
           }}
-          className="flex items-center gap-2.5 text-left whitespace-nowrap shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3457D5] rounded-md"
+          className="flex items-center gap-2.5 text-left min-w-0 shrink focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3457D5] rounded-md"
         >
-          <span className="w-8 h-8 rounded-lg bg-[#3457D5] text-white flex items-center justify-center font-display font-bold text-base tracking-tight">
-            K
+          <span className="w-8 h-8 rounded-lg bg-[#3457D5] text-white flex items-center justify-center font-display font-bold text-base tracking-tight shrink-0">
+            E
           </span>
-          <span className="font-display font-bold text-lg tracking-tight text-[#171C2C]">
-            KoraStore
+          <span className="font-display font-bold text-sm sm:text-base lg:text-lg tracking-tight text-[#171C2C] truncate">
+            E-Commerce Product Multi-Filter Application
           </span>
         </button>
 

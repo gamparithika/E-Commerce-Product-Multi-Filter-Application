@@ -31,6 +31,8 @@ const DEFAULT_CATEGORIES: ProductCategory[] = [
   'Footwear',
   'Watches & Accessories',
   'Home & Living',
+  'Beauty & Grooming',
+  'Sports & Fitness',
 ];
 
 export default function App() {
@@ -204,6 +206,8 @@ export default function App() {
     Footwear: 0,
     'Watches & Accessories': 0,
     'Home & Living': 0,
+    'Beauty & Grooming': 0,
+    'Sports & Fitness': 0,
   };
 
   const isPriceFiltered =
@@ -419,7 +423,7 @@ export default function App() {
                     Discover Products
                   </h1>
                   <p className="text-sm text-[#6B7280] mt-1">
-                    Find the right products for your needs across curated electronics, apparel, footwear, watches, and homeware.
+                    Find the right products for your needs across electronics, apparel, footwear, watches, homeware, beauty, and fitness.
                   </p>
                 </div>
               </div>
@@ -497,7 +501,7 @@ export default function App() {
       {/* Clean Quiet Footer */}
       <footer className="bg-white border-t border-[#E5E7EB] mt-12">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#6B7280]">
-          <p>© 2026 KoraStore Retail India Pvt. Ltd. All prices inclusive of GST.</p>
+          <p>© 2026 E-Commerce Product Multi-Filter Application. All prices inclusive of GST.</p>
           <div className="flex items-center gap-6">
             <button
               type="button"

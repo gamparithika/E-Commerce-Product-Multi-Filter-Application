@@ -43,7 +43,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`KoraStore server listening on http://localhost:${PORT}`);
+    console.log(`E-Commerce Product Multi-Filter Application server listening on http://localhost:${PORT}`);
   });
 }
 
